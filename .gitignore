@@ -1,0 +1,16 @@
+# Never commit key pairs
+*.pem
+*.ppk
+
+# Never commit credentials or env files
+.env
+*.env
+credentials*
+*password*
+
+# Downloaded PrestaShop package (large binary, not source)
+*.zip
+
+# OS clutter
+.DS_Store
+Thumbs.db
